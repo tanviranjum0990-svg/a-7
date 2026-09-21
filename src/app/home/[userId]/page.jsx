@@ -53,11 +53,13 @@ const UserDetailsPage = async({params}) => {
                     <h1>{user.days_since_contact}</h1>
                     <p><small>Days Since Contact</small></p>
                 </div>
-                <div className='shadow w-[234px] h-[132px]'>
-                    
+                <div className='shadow w-[234px] h-[132px] flex flex-col justify-center items-center'>
+                    <h1>0</h1>
+                    <p><small>Interaction Days</small></p>
                 </div>
-                <div className='shadow w-[234px] h-[132px]'>
-                    
+                <div className='shadow w-[234px] h-[132px] flex flex-col justify-center items-center'>
+                       <h1>0</h1>
+                       <p><small>Total Days</small></p>
                 </div>
             </div>
             <div className='w-full h-[121px] shadow-md p-3 flex justify-between '>

@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -10,7 +9,8 @@
     "tags": ["college", "close friend", "hiking"],
     "bio": "Met during university orientation. We still go hiking and try new coffee shops together.",
     "goal": 14,
-    "next_due_date": "2026-08-28"
+    "next_due_date": "2026-08-28",
+    "type": "call"
   },
   {
     "id": 2,
@@ -22,7 +22,8 @@
     "tags": ["work", "tech", "gaming"],
     "bio": "Former coworker who introduced me to strategy games and still sends me interesting tech articles.",
     "goal": 14,
-    "next_due_date": "2026-09-17"
+    "next_due_date": "2026-09-17",
+    "type": "text"
   },
   {
     "id": 3,
@@ -34,7 +35,8 @@
     "tags": ["neighbor", "foodie", "close friend"],
     "bio": "A longtime neighbor who loves cooking, weekend markets, and discovering small local restaurants.",
     "goal": 14,
-    "next_due_date": "2026-09-22"
+    "next_due_date": "2026-09-22",
+    "type": "video"
   },
   {
     "id": 4,
@@ -46,7 +48,8 @@
     "tags": ["school", "music", "old friend"],
     "bio": "We played in the same school band and still exchange playlists whenever we discover a great new artist.",
     "goal": 21,
-    "next_due_date": "2026-08-23"
+    "next_due_date": "2026-08-23",
+    "type": "call"
   },
   {
     "id": 5,
@@ -58,7 +61,8 @@
     "tags": ["family friend", "books", "travel"],
     "bio": "We became friends through our families and often trade book recommendations and travel stories.",
     "goal": 14,
-    "next_due_date": "2026-09-20"
+    "next_due_date": "2026-09-20",
+    "type": "text"
   },
   {
     "id": 6,
@@ -70,7 +74,8 @@
     "tags": ["gym", "sports", "close friend"],
     "bio": "My gym buddy and one of the people I call when I need motivation for a tough workout or game night.",
     "goal": 14,
-    "next_due_date": "2026-09-14"
+    "next_due_date": "2026-09-14",
+    "type": "video"
   },
   {
     "id": 7,
@@ -82,7 +87,8 @@
     "tags": ["university", "design", "creative"],
     "bio": "A university friend who works in graphic design and always has a creative project underway.",
     "goal": 14,
-    "next_due_date": "2026-09-23"
+    "next_due_date": "2026-09-23",
+    "type": "call"
   },
   {
     "id": 8,
@@ -94,7 +100,8 @@
     "tags": ["childhood", "football", "old friend"],
     "bio": "We grew up on the same street and spent most weekends playing football together.",
     "goal": 21,
-    "next_due_date": "2026-08-30"
+    "next_due_date": "2026-08-30",
+    "type": "text"
   },
   {
     "id": 9,
@@ -106,7 +113,8 @@
     "tags": ["work", "photography", "travel"],
     "bio": "A former teammate at work who shares my interest in street photography and spontaneous weekend trips.",
     "goal": 14,
-    "next_due_date": "2026-09-16"
+    "next_due_date": "2026-09-16",
+    "type": "video"
   },
   {
     "id": 10,
@@ -118,7 +126,7 @@
     "tags": ["college", "movies", "close friend"],
     "bio": "A college roommate who still joins me for movie nights and debates about the latest releases.",
     "goal": 14,
-    "next_due_date": "2026-09-19"
+    "next_due_date": "2026-09-19",
+    "type": "call"
   }
 ]
-
