@@ -1,24 +1,22 @@
-import React from 'react';
-import { FaHandshake, FaPhoneAlt, FaVideo, FaRegCommentDots } from "react-icons/fa";
-
-const TimelinePage = () => {
-    
+"use client"
+import Image from 'next/image';
+const TimelinePage = () => {    
     const timelineEvents = [
         {
             id: 1,
             name: "Maya Thompson",
             next_due_date: "2026-08-28",
             day: "March 24, 2026",
-            type: "Meetup",
-            icon: <FaHandshake className="text-amber-500 text-lg" />
+            type: "call",
+            icon: "/assets/call.png"
         },
         {
             id: 2,
             name: "Ethan Brooks",
             next_due_date: "2026-09-17",
             day: "April 08, 2026",
-            type: "Text",
-            icon: <FaRegCommentDots className="text-blue-500 text-lg" />
+            type: "video",
+            icon:  "/assets/video.png"
         },
         {
             id: 3,
@@ -26,7 +24,7 @@ const TimelinePage = () => {
             next_due_date: "2026-09-22",
             day: "May 15, 2026",
             type: "Call",
-            icon: <FaPhoneAlt className="text-emerald-500 text-base" />
+            icon: "/assets/video.png"
         },
         {
             id: 4,
@@ -34,15 +32,15 @@ const TimelinePage = () => {
             next_due_date: "2026-08-23",
             day: "June 03, 2026",
             type: "Video",
-            icon: <FaVideo className="text-purple-500 text-base" />
+            icon: "/assets/text.png"
         },
         {
             id: 5,
             name: "Olivia Carter",
             next_due_date: "2026-09-20",
             day: "June 27, 2026",
-            type: "Text",
-            icon: <FaRegCommentDots className="text-blue-500 text-lg" />
+            type: "Text", 
+            icon:  "/assets/video.png"
         },
         {
             id: 6,
@@ -50,7 +48,7 @@ const TimelinePage = () => {
             next_due_date: "2026-09-14",
             day: "July 11, 2026",
             type: "Call",
-            icon: <FaPhoneAlt className="text-emerald-500 text-base" />
+            icon:  "/assets/video.png"
         },
         {
             id: 7,
@@ -58,7 +56,7 @@ const TimelinePage = () => {
             next_due_date: "2026-09-23",
             day: "July 29, 2026",
             type: "Meetup",
-            icon: <FaHandshake className="text-amber-500 text-lg" />
+            icon:  "/assets/text.png"
         },
         {
             id: 8,
@@ -66,7 +64,7 @@ const TimelinePage = () => {
             next_due_date: "2026-08-30",
             day: "August 06, 2026",
             type: "Video",
-            icon: <FaVideo className="text-purple-500 text-base" />
+            icon:  "/assets/video.png"
         },
         {
             id: 9,
@@ -74,7 +72,7 @@ const TimelinePage = () => {
             next_due_date: "2026-09-16",
             day: "September 02, 2026",
             type: "Meetup",
-            icon: <FaHandshake className="text-amber-500 text-lg" />
+            icon:  "/assets/text.png"
         },
         {
             id: 10,
@@ -82,7 +80,7 @@ const TimelinePage = () => {
             next_due_date: "2026-09-19",
             day: "September 12, 2026",
             type: "Text",
-            icon: <FaRegCommentDots className="text-blue-500 text-lg" />
+            icon:  "/assets/text.png"
         }
     ];
 
@@ -112,7 +110,13 @@ const TimelinePage = () => {
                         >
                          
                             <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-100">
-                                {event.icon}
+                              <Image
+                              src={event.icon}
+                              alt='icon image'
+                              width="50"
+                              height="50"
+                               className='object-cover'
+                              ></Image>
                             </div>
 
                            
