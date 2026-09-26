@@ -25,7 +25,6 @@ const UserDetailsPage = async ({ params }) => {
                 
               
                 <div className="w-full md:w-[350px] flex flex-col gap-4">
-                    {/* Profile Card */}
                     <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col items-center text-center border border-slate-100">
                         <div className="relative w-24 h-24 mb-4 rounded-full overflow-hidden shadow-inner">
                             <Image

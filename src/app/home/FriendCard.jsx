@@ -17,8 +17,8 @@ const FriendCard = ({ friend }) => {
           </div>
           <div><h3 className='font-bold'>{friend.name}</h3></div>
           <div><small>{friend.days_since_contact}</small>:days ago</div>
-          <div className='shadow-md rounded-xl w-[70px] h-[28px] bg-red-500 text-center '><h3><small>{friend.status}</small></h3></div>
-          <div className='shadow-md rounded-xl w-[70px] h-[28px] bg-green-800 text-center '>
+          <div className='shadow-md rounded-xl w-[70px] h-[28px] bg-red-500 text-center text-white '><h3><small>{friend.status}</small></h3></div>
+          <div className='shadow-md rounded-xl w-[77px] h-[28px] bg-green-800 text-center text-white'>
         <h4>{firstTag}</h4>
           </div>
         </div>
